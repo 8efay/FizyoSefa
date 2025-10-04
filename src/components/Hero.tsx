@@ -38,36 +38,29 @@ const Hero = () => {
             <div className="mb-6">
               <span className="inline-flex items-center px-6 py-3 rounded-full text-sm font-medium bg-gradient-to-r from-purple-500 to-pink-500 text-white mb-4 shadow-lg animate-pulse">
                 <Heart size={16} className="mr-2" />
-                Profesyonel Fizyoterapi Hizmetleri
+                Ağrı Merkez'de Fizik Tedavi
               </span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
               Sağlığınız İçin
-              <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent block">Profesyonel</span>
-              <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Fizyoterapi</span>
+              <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent block">Evde Fizik</span>
+              <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Tedavi</span>
             </h1>
 
-            <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto lg:mx-0">
-              Uzman fizyoterapist Sefa Yılmaz ile manuel terapi, rehabilitasyon ve egzersiz danışmanlığı hizmetleri. 
-              Sağlığınızı iyileştirmek için buradayım.
-            </p>
+                          <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto lg:mx-0">
+                Ağrı Merkez'de fizik tedavi hizmetleri. Fizyoterapist Sefa Yılmaz ile manuel terapi, 
+                rehabilitasyon ve egzersiz danışmanlığı hizmetleri. Sağlığınızı iyileştirmek için buradayım.
+              </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
-                href="/iletisim"
-                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
-              >
-                <Calendar size={20} className="mr-2" />
-                Randevu Al
-                <ArrowRight size={20} className="ml-2" />
-              </Link>
-              <Link
                 href="/hizmetler"
-                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 text-white border-2 border-transparent font-semibold rounded-lg hover:from-blue-600 hover:to-cyan-600 transition-all transform hover:scale-105"
+                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 <Activity size={20} className="mr-2" />
                 Hizmetlerim
+                <ArrowRight size={20} className="ml-2" />
               </Link>
             </div>
 
@@ -78,7 +71,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
                 <Activity size={16} className="mr-2 text-pink-500" />
-                <span>5+ Yıl Deneyim</span>
+                <span>Kaliteli Tedavi</span>
               </div>
             </div>
           </div>
@@ -89,14 +82,18 @@ const Hero = () => {
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full flex items-center justify-center">
                 <Star className="w-4 h-4 text-white" />
               </div>
-              <div className="w-32 h-32 bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg animate-pulse">
-                <span className="text-white text-4xl font-bold">S</span>
+              <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center shadow-lg animate-pulse relative">
+                <img 
+                  src="/fizyo-sefa-logo.jpg" 
+                  alt="FIZYO SEFA Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <h3 className="text-2xl font-bold text-center text-gray-900 mb-2">
-                Sefa Yılmaz
+                Fizyoterapist Sefa Yılmaz
               </h3>
               <p className="text-center text-gray-600 mb-6">
-                Uzman Fizyoterapist
+                Fizik Tedavi
               </p>
               <div className="space-y-3">
                 <div className="flex items-center justify-between p-3 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg border border-purple-100">
@@ -114,7 +111,7 @@ const Hero = () => {
               </div>
               <div className="mt-6 text-center">
                 <a
-                  href="tel:+905551234567"
+                  href="tel:+905528939386"
                   className="inline-flex items-center text-purple-600 hover:text-purple-700 font-semibold transition-colors"
                 >
                   <Phone size={16} className="mr-2" />

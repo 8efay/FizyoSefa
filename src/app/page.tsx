@@ -1,7 +1,7 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Footer from '@/components/Footer';
-import { Heart, Activity, Users, Award, Clock, Shield, Star, Sparkles, CheckCircle, AlertTriangle } from 'lucide-react';
+import { Heart, Activity, Users, Award, Clock, Shield, Star, Sparkles, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Home() {
@@ -12,21 +12,7 @@ export default function Home() {
       <main>
         <Hero />
         
-        {/* Disclaimer Banner */}
-        <section className="py-8 bg-gradient-to-r from-orange-50 to-red-50 border-b border-orange-200">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-center">
-              <AlertTriangle className="w-5 h-5 text-orange-600 mr-3" />
-              <p className="text-sm text-orange-800 text-center">
-                <strong>Önemli Uyarı:</strong> Bu sitedeki tüm bilgiler sadece bilgilendirme amaçlıdır. 
-                Tedavi için mutlaka uzman bir fizyoterapiste danışınız. 
-                <Link href="/kvkk" className="text-orange-600 hover:underline ml-1">
-                  Detaylı bilgi için tıklayın.
-                </Link>
-              </p>
-            </div>
-          </div>
-        </section>
+
         
         {/* Features Section */}
         <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
@@ -61,9 +47,9 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mb-6 shadow-lg">
                   <Award className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Uzman Deneyim</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Kişisel Yaklaşım</h3>
                 <p className="text-gray-600">
-                  5+ yıllık deneyimimle en güncel fizyoterapi tekniklerini uyguluyorum.
+                  En güncel fizyoterapi teknikleri ile size en iyi hizmeti sunuyorum.
                 </p>
               </div>
 
@@ -152,17 +138,11 @@ export default function Home() {
                 Profesyonel fizyoterapi hizmetleri için randevu alın ve sağlığınızı iyileştirmeye başlayın.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/iletisim"
+                <a
+                  href="tel:+905528939386"
                   className="inline-flex items-center justify-center px-8 py-4 bg-white text-purple-600 font-semibold rounded-lg hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105"
                 >
                   <CheckCircle size={20} className="mr-2" />
-                  Randevu Al
-                </Link>
-                <a
-                  href="tel:+905551234567"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-transparent text-white border-2 border-white font-semibold rounded-lg hover:bg-white hover:text-purple-600 transition-all transform hover:scale-105"
-                >
                   Hemen Ara
                 </a>
               </div>

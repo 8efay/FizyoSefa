@@ -41,8 +41,8 @@ export default function KVKK() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">1. Veri Sorumlusu</h3>
                 <p className="text-gray-700 mb-6">
                   Kişisel verilerinizin işlenmesi konusunda veri sorumlusu: Sefa Yılmaz<br/>
-                  İletişim: info@sefayilmaz.com<br/>
-                  Telefon: 0555 123 45 67
+                                     İletişim: fizyoterapistsefa4@gmail.com<br/>
+                                     Telefon: 0552 893 93 86
                 </p>
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">2. Toplanan Veriler</h3>
@@ -156,7 +156,7 @@ export default function KVKK() {
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">İletişim</h3>
                 <p className="text-gray-700 mb-6">
-                  Gizlilik politikası hakkında sorularınız için: info@sefayilmaz.com
+                                     Gizlilik politikası hakkında sorularınız için: fizyoterapistsefa4@gmail.com
                 </p>
               </div>
             </div>
@@ -178,13 +178,13 @@ export default function KVKK() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:info@sefayilmaz.com"
+                                 href="mailto:fizyoterapistsefa4@gmail.com"
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-purple-600 font-semibold rounded-lg hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105"
               >
                 E-posta Gönder
               </a>
               <a
-                href="tel:+905551234567"
+                                  href="tel:+905528939386"
                 className="inline-flex items-center justify-center px-8 py-4 bg-transparent text-white border-2 border-white font-semibold rounded-lg hover:bg-white hover:text-purple-600 transition-all transform hover:scale-105"
               >
                 Telefon Et

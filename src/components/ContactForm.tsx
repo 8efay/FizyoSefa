@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-import { Send, CheckCircle, AlertCircle, Shield, AlertTriangle } from 'lucide-react';
+import { MessageCircle, CheckCircle, AlertCircle, Shield, AlertTriangle } from 'lucide-react';
 
 const schema = yup.object({
   name: yup.string().required('İsim gereklidir'),
@@ -34,12 +34,14 @@ const ContactForm = () => {
     setSubmitStatus('idle');
 
     try {
-      // Burada form verilerini gönderebilirsiniz
-      // Örnek: API endpoint'e POST isteği
-      console.log('Form data:', data);
+      // WhatsApp mesajını hazırla
+      const message = `Merhaba! Ben ${data.name}.\n\nE-posta: ${data.email}\nTelefon: ${data.phone}\nKonu: ${data.subject}\n\nMesajım:\n${data.message}\n\nSize nasıl ulaşabilirim?`;
       
-      // Simüle edilmiş API çağrısı
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      // WhatsApp linkini oluştur
+      const whatsappUrl = `https://wa.me/905528939386?text=${encodeURIComponent(message)}`;
+      
+      // WhatsApp'a yönlendir
+      window.open(whatsappUrl, '_blank');
       
       setSubmitStatus('success');
       reset();
@@ -68,7 +70,7 @@ const ContactForm = () => {
             <h4 className="text-sm font-semibold text-orange-800 mb-1">Önemli Uyarı</h4>
             <p className="text-xs text-orange-700">
               Bu form sadece iletişim amaçlıdır. Sağlık verisi toplanmamaktadır. 
-              Tedavi için mutlaka uzman bir fizyoterapiste danışınız.
+              Tedavi için mutlaka bir fizyoterapiste danışınız.
             </p>
           </div>
         </div>
@@ -77,14 +79,14 @@ const ContactForm = () => {
       {submitStatus === 'success' && (
         <div className="mb-6 p-4 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg flex items-center">
           <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
-          <span className="text-green-700">Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.</span>
+          <span className="text-green-700">WhatsApp açıldı! Mesajınız hazır, sadece gönder butonuna tıklayın.</span>
         </div>
       )}
 
       {submitStatus === 'error' && (
         <div className="mb-6 p-4 bg-gradient-to-r from-red-50 to-pink-50 border border-red-200 rounded-lg flex items-center">
-          <AlertCircle className="w-5 h-5 text-red-500 mr-2" />
-          <span className="text-red-700">Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyiniz.</span>
+          <AlertCircle className="w-5 h-4 text-red-500 mr-2" />
+          <span className="text-red-700">Bir hata oluştu. Lütfen tekrar deneyiniz.</span>
         </div>
       )}
 
@@ -159,7 +161,6 @@ const ContactForm = () => {
             >
               <option value="">Konu seçiniz</option>
               <option value="bilgi">Bilgi Alma</option>
-              <option value="randevu">Randevu Talebi</option>
               <option value="blog">Blog Hakkında Soru</option>
               <option value="oneri">Öneri</option>
               <option value="diger">Diğer</option>
@@ -204,17 +205,17 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg transform hover:scale-105"
+          className="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-semibold rounded-lg hover:from-green-600 hover:to-emerald-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg transform hover:scale-105"
         >
           {isSubmitting ? (
             <>
               <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-              Gönderiliyor...
+              WhatsApp'a Yönlendiriliyor...
             </>
           ) : (
             <>
-              <Send className="w-4 h-4 mr-2" />
-              Mesaj Gönder
+              <MessageCircle className="w-4 h-4 mr-2" />
+              WhatsApp'ta Sor
             </>
           )}
         </button>
@@ -224,7 +225,7 @@ const ContactForm = () => {
       <div className="mt-6 pt-6 border-t border-gray-200">
         <p className="text-xs text-gray-500 text-center">
           Bu form sadece iletişim amaçlıdır. Sağlık verisi toplanmamaktadır. 
-          Tedavi için mutlaka uzman bir fizyoterapiste danışınız.
+          Tedavi için mutlaka bir fizyoterapiste danışınız.
         </p>
       </div>
     </div>

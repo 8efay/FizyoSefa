@@ -17,7 +17,7 @@ export default function Iletisim() {
                 İletişim
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Sağlığınız için buradayım. Sorularınız ve randevu talepleriniz için 
+                Sağlığınız için buradayım. Sorularınız için 
                 benimle iletişime geçebilirsiniz.
               </p>
             </div>
@@ -50,8 +50,8 @@ export default function Iletisim() {
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-1">Telefon</h4>
-                      <a href="tel:+905551234567" className="text-gray-600 hover:text-primary transition-colors">
-                        0555 123 45 67
+                      <a href="tel:+905528939386" className="text-gray-600 hover:text-primary transition-colors">
+                        0552 893 93 86
                       </a>
                     </div>
                   </div>
@@ -62,9 +62,9 @@ export default function Iletisim() {
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-1">E-posta</h4>
-                      <a href="mailto:info@sefayilmaz.com" className="text-gray-600 hover:text-secondary transition-colors">
-                        info@sefayilmaz.com
-                      </a>
+                                             <a href="mailto:fizyoterapistsefa4@gmail.com" className="text-gray-600 hover:text-secondary transition-colors">
+                         fizyoterapistsefa4@gmail.com
+                       </a>
                     </div>
                   </div>
 
@@ -75,8 +75,8 @@ export default function Iletisim() {
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-1">Adres</h4>
                       <p className="text-gray-600">
-                        İstanbul, Türkiye<br />
-                        Detaylı adres bilgisi için lütfen iletişime geçin.
+                        Ağrı Merkez<br />
+                        Detaylı adres için lütfen iletişime geçin.
                       </p>
                     </div>
                   </div>
@@ -88,9 +88,7 @@ export default function Iletisim() {
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-1">Çalışma Saatleri</h4>
                       <div className="text-gray-600">
-                        <p>Pazartesi - Cuma: 09:00 - 18:00</p>
-                        <p>Cumartesi: 09:00 - 14:00</p>
-                        <p>Pazar: Kapalı</p>
+                        <p>Hafta içi: Ağrı Merkez</p>
                       </div>
                     </div>
                   </div>
@@ -101,7 +99,7 @@ export default function Iletisim() {
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Hızlı İletişim</h4>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <a
-                      href="https://wa.me/905551234567"
+                      href="https://wa.me/905528939386"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-6 py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors"
@@ -110,7 +108,7 @@ export default function Iletisim() {
                       WhatsApp
                     </a>
                     <a
-                      href="tel:+905551234567"
+                      href="tel:+905528939386"
                       className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors"
                     >
                       <Phone className="w-5 h-5 mr-2" />
@@ -123,31 +121,7 @@ export default function Iletisim() {
           </div>
         </section>
 
-        {/* Map Section */}
-        <section className="py-20 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Konum
-              </h2>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Klinik konumumuz ve ulaşım bilgileri.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-xl shadow-lg p-8">
-              <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                  <p className="text-gray-600">Harita entegrasyonu buraya eklenecek</p>
-                  <p className="text-sm text-gray-500 mt-2">
-                    Google Maps veya başka bir harita servisi entegre edilebilir
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
 
         {/* FAQ Section */}
         <section className="py-20 bg-white">
@@ -164,10 +138,10 @@ export default function Iletisim() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                  İlk randevu için ne yapmam gerekiyor?
+                  İlk görüşme için ne yapmam gerekiyor?
                 </h3>
                 <p className="text-gray-600">
-                  İlk randevunuz için telefon veya e-posta ile iletişime geçebilirsiniz. 
+                  İlk görüşmeniz için telefon veya e-posta ile iletişime geçebilirsiniz. 
                   Size uygun bir zaman belirleyeceğiz.
                 </p>
               </div>
@@ -194,10 +168,10 @@ export default function Iletisim() {
 
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                  Ev ziyareti yapıyor musunuz?
+                  Evde tedavi hizmeti veriyor musunuz?
                 </h3>
                 <p className="text-gray-600">
-                  Ev ziyareti hizmeti de sunmaktayım. Detaylar için lütfen 
+                  Evde tedavi hizmeti de sunmaktayım. Detaylar için lütfen 
                   iletişime geçin.
                 </p>
               </div>

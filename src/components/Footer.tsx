@@ -15,15 +15,19 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-lg">S</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="relative w-12 h-12 flex items-center justify-center shadow-lg overflow-hidden">
+                <img 
+                  src="/fizyo-sefa-logo.jpg" 
+                  alt="FIZYO SEFA Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
-              <div>
-                <h3 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  Sefa Yılmaz
+              <div className="flex flex-col">
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
+                  FizyoSefa
                 </h3>
-                <p className="text-sm text-gray-400">Fizyoterapist</p>
+                <p className="text-sm text-gray-400 font-medium">Evde Fizik Tedavi</p>
               </div>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
@@ -70,12 +74,7 @@ const Footer = () => {
                   Hizmetler
                 </Link>
               </li>
-              <li>
-                <Link href="/blog" className="text-gray-300 hover:text-purple-400 transition-colors flex items-center group">
-                  <Sparkles size={12} className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  Blog
-                </Link>
-              </li>
+
               <li>
                 <Link href="/iletisim" className="text-gray-300 hover:text-purple-400 transition-colors flex items-center group">
                   <Sparkles size={12} className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -95,16 +94,19 @@ const Footer = () => {
                 <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
                   <Phone size={16} className="text-white" />
                 </div>
-                <a href="tel:+905551234567" className="text-gray-300 hover:text-purple-400 transition-colors">
-                  0555 123 45 67
+                <a href="tel:+905528939386" className="text-gray-300 hover:text-purple-400 transition-colors">
+                  0552 893 93 86
                 </a>
               </li>
               <li className="flex items-center space-x-2 group">
                 <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
                   <Mail size={16} className="text-white" />
                 </div>
-                <a href="mailto:info@sefayilmaz.com" className="text-gray-300 hover:text-blue-400 transition-colors">
-                  info@sefayilmaz.com
+                <a 
+                  href="mailto:fizyoterapistsefa4@gmail.com?subject=Fizik Tedavi Randevu Talebi&body=Merhaba, fizik tedavi hizmetleriniz hakkında bilgi almak istiyorum."
+                  className="text-gray-300 hover:text-blue-400 transition-colors"
+                >
+                  fizyoterapistsefa4@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-2 group">
@@ -112,9 +114,9 @@ const Footer = () => {
                   <MapPin size={16} className="text-white" />
                 </div>
                 <span className="text-gray-300">
-                  İstanbul, Türkiye<br />
-                  Çalışma Saatleri:<br />
-                  Pazartesi - Cuma: 09:00 - 18:00
+                  Ağrı Merkez<br />
+                  Çalışma Günleri:<br />
+                  Hafta içi: Ağrı Merkez
                 </span>
               </li>
             </ul>

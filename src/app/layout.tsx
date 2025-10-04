@@ -15,12 +15,12 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Fizyoterapist Sefa Yılmaz - Profesyonel Fizyoterapi Hizmetleri",
-  description: "Uzman fizyoterapist Sefa Yılmaz ile manuel terapi, rehabilitasyon ve egzersiz danışmanlığı hizmetleri. İstanbul'da profesyonel fizyoterapi hizmetleri.",
-  keywords: "fizyoterapi, manuel terapi, rehabilitasyon, egzersiz, İstanbul fizyoterapist",
+  description: "Fizyoterapist Sefa Yılmaz ile manuel terapi, rehabilitasyon ve egzersiz danışmanlığı hizmetleri. Ağrı Merkez'de profesyonel fizyoterapi hizmetleri.",
+  keywords: "fizyoterapi, manuel terapi, rehabilitasyon, egzersiz, Ağrı, fizyoterapist",
   authors: [{ name: "Sefa Yılmaz" }],
   openGraph: {
     title: "Fizyoterapist Sefa Yılmaz - Profesyonel Fizyoterapi Hizmetleri",
-    description: "Uzman fizyoterapist Sefa Yılmaz ile manuel terapi, rehabilitasyon ve egzersiz danışmanlığı hizmetleri.",
+    description: "Fizyoterapist Sefa Yılmaz ile manuel terapi, rehabilitasyon ve egzersiz danışmanlığı hizmetleri.",
     type: "website",
   },
 };

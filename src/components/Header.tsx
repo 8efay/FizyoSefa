@@ -16,15 +16,19 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all transform group-hover:scale-105">
-              <span className="text-white font-bold text-lg">S</span>
+          <Link href="/" className="flex items-center space-x-3 group">
+            <div className="relative w-12 h-12 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all transform group-hover:scale-105">
+              <img 
+                src="/fizyo-sefa-logo.jpg" 
+                alt="FIZYO SEFA Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
-            <div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Sefa Yılmaz
+            <div className="flex flex-col">
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+                FizyoSefa
               </h1>
-              <p className="text-sm text-gray-600">Fizyoterapist</p>
+              <p className="text-sm text-gray-600 font-medium">Evde Fizik Tedavi</p>
             </div>
           </Link>
 
@@ -39,9 +43,7 @@ const Header = () => {
             <Link href="/hizmetler" className="text-gray-700 hover:text-purple-600 transition-colors font-medium">
               Hizmetler
             </Link>
-            <Link href="/blog" className="text-gray-700 hover:text-purple-600 transition-colors font-medium">
-              Blog
-            </Link>
+
             <Link href="/iletisim" className="text-gray-700 hover:text-purple-600 transition-colors font-medium">
               İletişim
             </Link>
@@ -49,13 +51,16 @@ const Header = () => {
 
           {/* Contact Info */}
           <div className="hidden lg:flex items-center space-x-4">
-            <a href="tel:+905551234567" className="flex items-center space-x-1 text-sm text-gray-600 hover:text-purple-600 transition-colors bg-purple-50 px-3 py-1 rounded-full hover:bg-purple-100">
+            <a href="tel:+905528939386" className="flex items-center space-x-1 text-sm text-gray-600 hover:text-purple-600 transition-colors bg-purple-50 px-3 py-1 rounded-full hover:bg-purple-100">
               <Phone size={16} />
-              <span>0555 123 45 67</span>
+              <span>0552 893 93 86</span>
             </a>
-            <a href="mailto:info@sefayilmaz.com" className="flex items-center space-x-1 text-sm text-gray-600 hover:text-purple-600 transition-colors bg-pink-50 px-3 py-1 rounded-full hover:bg-pink-100">
+            <a 
+              href="mailto:fizyoterapistsefa4@gmail.com?subject=Fizik Tedavi Randevu Talebi&body=Merhaba, fizik tedavi hizmetleriniz hakkında bilgi almak istiyorum."
+              className="flex items-center space-x-1 text-sm text-gray-600 hover:text-purple-600 transition-colors bg-pink-50 px-3 py-1 rounded-full hover:bg-pink-100"
+            >
               <Mail size={16} />
-              <span>info@sefayilmaz.com</span>
+              <span>fizyoterapistsefa4@gmail.com</span>
             </a>
           </div>
 
@@ -93,13 +98,7 @@ const Header = () => {
               >
                 Hizmetler
               </Link>
-              <Link
-                href="/blog"
-                className="block px-3 py-2 text-gray-700 hover:text-purple-600 hover:bg-purple-100 rounded-md transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Blog
-              </Link>
+
               <Link
                 href="/iletisim"
                 className="block px-3 py-2 text-gray-700 hover:text-purple-600 hover:bg-purple-100 rounded-md transition-colors"
@@ -108,13 +107,16 @@ const Header = () => {
                 İletişim
               </Link>
               <div className="pt-4 border-t border-purple-200">
-                <a href="tel:+905551234567" className="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:text-purple-600 transition-colors">
+                <a href="tel:+905528939386" className="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:text-purple-600 transition-colors">
                   <Phone size={16} />
-                  <span>0555 123 45 67</span>
+                  <span>0552 893 93 86</span>
                 </a>
-                <a href="mailto:info@sefayilmaz.com" className="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:text-purple-600 transition-colors">
+                <a 
+                  href="mailto:fizyoterapistsefa4@gmail.com?subject=Fizik Tedavi Randevu Talebi&body=Merhaba, fizik tedavi hizmetleriniz hakkında bilgi almak istiyorum."
+                  className="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:text-purple-600 transition-colors"
+                >
                   <Mail size={16} />
-                  <span>info@sefayilmaz.com</span>
+                  <span>fizyoterapistsefa4@gmail.com</span>
                 </a>
               </div>
             </div>

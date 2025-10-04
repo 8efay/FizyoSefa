@@ -7,20 +7,16 @@ import {
   Award, 
   Clock, 
   Shield, 
-  Star, 
   Sparkles, 
   CheckCircle, 
   ArrowRight,
   Phone,
-  Calendar,
-  MapPin,
   Target,
   Zap,
   Brain,
   Bone,
   Dumbbell,
   Thermometer,
-  Waves,
   Lightbulb,
   HandHeart
 } from 'lucide-react';
@@ -32,7 +28,7 @@ export default function Hizmetler() {
       icon: <HandHeart className="w-8 h-8 text-white" />,
       title: "Manuel Terapi",
       description: "Kas ve eklem problemlerinizi çözmek için özel manuel terapi teknikleri uyguluyorum.",
-      features: ["Kas gevşetme", "Eklem mobilizasyonu", "Doku manipülasyonu", "Ağrı azaltma"],
+      features: ["Kas gevşetme", "Eklem mobilizasyonu", "Doku manipülasyonu", "Ağrı azaltma", "Trigger point tedavisi", "Myofascial release"],
       color: "from-purple-500 to-pink-500",
       bgColor: "from-purple-50 to-pink-50",
       borderColor: "border-purple-200"
@@ -41,7 +37,7 @@ export default function Hizmetler() {
       icon: <Dumbbell className="w-8 h-8 text-white" />,
       title: "Rehabilitasyon",
       description: "Cerrahi sonrası veya yaralanma sonrası rehabilitasyon programları hazırlıyorum.",
-      features: ["Fonksiyonel egzersizler", "Güçlendirme programları", "Denge ve koordinasyon", "Günlük aktivite eğitimi"],
+      features: ["Fonksiyonel egzersizler", "Güçlendirme programları", "Denge ve koordinasyon", "Günlük aktivite eğitimi", "İş ve spor rehabilitasyonu", "Ağrı yönetimi"],
       color: "from-blue-500 to-cyan-500",
       bgColor: "from-blue-50 to-cyan-50",
       borderColor: "border-blue-200"
@@ -50,7 +46,7 @@ export default function Hizmetler() {
       icon: <Brain className="w-8 h-8 text-white" />,
       title: "Nörolojik Rehabilitasyon",
       description: "Sinir sistemi problemlerinde özel rehabilitasyon teknikleri uyguluyorum.",
-      features: ["Nöromüsküler eğitim", "Koordinasyon egzersizleri", "Denge rehabilitasyonu", "Yürüme eğitimi"],
+      features: ["Nöromüsküler eğitim", "Koordinasyon egzersizleri", "Denge rehabilitasyonu", "Yürüme eğitimi", "Bobath tekniği", "PNF egzersizleri"],
       color: "from-green-500 to-emerald-500",
       bgColor: "from-green-50 to-emerald-50",
       borderColor: "border-green-200"
@@ -59,7 +55,7 @@ export default function Hizmetler() {
       icon: <Bone className="w-8 h-8 text-white" />,
       title: "Ortopedik Rehabilitasyon",
       description: "Kemik ve eklem problemlerinde kapsamlı rehabilitasyon hizmetleri.",
-      features: ["Postür düzeltme", "Kas güçlendirme", "Esneklik artırma", "Ağrı yönetimi"],
+      features: ["Postür düzeltme", "Kas güçlendirme", "Esneklik artırma", "Ağrı yönetimi", "Kırık sonrası rehabilitasyon", "Spor yaralanması tedavisi"],
       color: "from-orange-500 to-red-500",
       bgColor: "from-orange-50 to-red-50",
       borderColor: "border-orange-200"
@@ -68,39 +64,50 @@ export default function Hizmetler() {
       icon: <Thermometer className="w-8 h-8 text-white" />,
       title: "Fizik Tedavi",
       description: "Modern fizik tedavi cihazları ile etkili tedavi seansları.",
-      features: ["Ultrason tedavisi", "Elektroterapi", "Sıcak-soğuk uygulamalar", "Lazer tedavisi"],
+      features: ["Elektroterapi", "Sıcak-soğuk uygulamalar", "TENS tedavisi", "Manuel teknikler", "Egzersiz programları", "Postür eğitimi"],
       color: "from-indigo-500 to-purple-500",
       bgColor: "from-indigo-50 to-purple-50",
       borderColor: "border-indigo-200"
     },
     {
-      icon: <Waves className="w-8 h-8 text-white" />,
-      title: "Su Terapisi",
-      description: "Su ortamında yapılan özel rehabilitasyon programları.",
-      features: ["Hidroterapi", "Su egzersizleri", "Yüzme rehabilitasyonu", "Düşük etkili egzersizler"],
+      icon: <HandHeart className="w-8 h-8 text-white" />,
+      title: "Masaj Terapisi",
+      description: "Kas gevşetme ve ağrı azaltma için özel masaj teknikleri.",
+      features: ["Kas gevşetme", "Ağrı azaltma", "Kan dolaşımı artırma", "Stres azaltma", "Derin doku masajı", "Refleksoloji"],
       color: "from-teal-500 to-cyan-500",
       bgColor: "from-teal-50 to-cyan-50",
       borderColor: "border-teal-200"
+    },
+    {
+      icon: <Target className="w-8 h-8 text-white" />,
+      title: "Spor Fizyoterapisi",
+      description: "Sporcu yaralanmalarında ve performans artırımında uzmanlaşmış tedavi.",
+      features: ["Spor yaralanması tedavisi", "Performans artırımı", "Esneklik ve mobilite", "Güç ve dayanıklılık", "Yaralanma önleme", "Sporcu beslenme danışmanlığı"],
+      color: "from-yellow-500 to-orange-500",
+      bgColor: "from-yellow-50 to-orange-50",
+      borderColor: "border-yellow-200"
+    },
+    {
+      icon: <Users className="w-8 h-8 text-white" />,
+      title: "Pediatrik Fizyoterapi",
+      description: "Çocuklarda gelişimsel problemlerde özel rehabilitasyon yaklaşımları.",
+      features: ["Gelişimsel gecikme", "Serebral palsi", "Down sendromu", "Kas hastalıkları", "Solunum problemleri", "Aile eğitimi"],
+      color: "from-pink-500 to-rose-500",
+      bgColor: "from-pink-50 to-rose-50",
+      borderColor: "border-pink-200"
+    },
+    {
+      icon: <Bone className="w-8 h-8 text-white" />,
+      title: "Boyun, Bel ve Eklem Ağrıları",
+      description: "Boyun, bel ve eklem ağrılarında özel tedavi teknikleri ile ağrısız yaşam.",
+      features: ["Boyun fıtığı tedavisi", "Bel fıtığı rehabilitasyonu", "Sırt ağrısı tedavisi", "Omuz ağrıları", "Diz ve kalça problemleri", "Ağrı yönetimi"],
+      color: "from-red-500 to-pink-500",
+      bgColor: "from-red-50 to-pink-50",
+      borderColor: "border-red-200"
     }
   ];
 
-  const testimonials = [
-    {
-      name: "Ayşe K.",
-      text: "Bel ağrılarım için manuel terapi aldım, çok memnun kaldım. Artık ağrısız yaşıyorum.",
-      rating: 5
-    },
-    {
-      name: "Mehmet S.",
-      text: "Cerrahi sonrası rehabilitasyon sürecimde çok destek oldu. Teşekkürler!",
-      rating: 5
-    },
-    {
-      name: "Fatma A.",
-      text: "Profesyonel yaklaşımı ve güler yüzü ile tedavi sürecimi çok kolaylaştırdı.",
-      rating: 5
-    }
-  ];
+
 
   return (
     <div className="min-h-screen">
@@ -119,32 +126,25 @@ export default function Hizmetler() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-purple-500 to-pink-500 text-white mb-6 shadow-lg">
               <Sparkles size={16} className="mr-2" />
-              Profesyonel Hizmetlerimiz
+              Ağrı Merkez'de Fizik Tedavi
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Fizyoterapi Hizmetlerimiz
+                Evde Fizik Tedavi Hizmetlerimiz
               </span>
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-              Uzman fizyoterapist olarak size en güncel ve etkili tedavi yöntemlerini sunuyorum. 
-              Her hasta için kişiselleştirilmiş tedavi planları hazırlıyorum.
+              Ağrı Merkez'de fizik tedavi hizmetleri sunuyorum. Size en güncel ve etkili tedavi yöntemlerini 
+              sunarak, her hasta için kişiselleştirilmiş tedavi planları hazırlıyorum.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/iletisim"
-                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
-              >
-                <Calendar size={20} className="mr-2" />
-                Randevu Al
-                <ArrowRight size={20} className="ml-2" />
-              </Link>
               <a
-                href="tel:+905551234567"
-                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-cyan-600 transition-all transform hover:scale-105"
+                href="tel:+905528939386"
+                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 <Phone size={20} className="mr-2" />
                 Hemen Ara
+                <ArrowRight size={20} className="ml-2" />
               </a>
             </div>
           </div>
@@ -233,35 +233,183 @@ export default function Hizmetler() {
           </div>
         </section>
 
-        {/* Testimonials Section */}
+        {/* Treatment Areas Section */}
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  Hasta Yorumları
+                  Tedavi Edilen Problemler
                 </span>
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Hizmetlerimizden memnun kalan hastalarımızın yorumları
+                Uzmanlık alanlarımda tedavi ettiğim yaygın problemler
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {testimonials.map((testimonial, index) => (
-                <div key={index} className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-200 shadow-lg">
-                  <div className="flex items-center mb-4">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} size={16} className="text-yellow-500 fill-current" />
-                    ))}
-                  </div>
-                  <p className="text-gray-700 mb-4 italic">"{testimonial.text}"</p>
-                  <p className="text-sm font-semibold text-purple-600">{testimonial.name}</p>
-                </div>
-              ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Boyun ve Bel Problemleri</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• Boyun fıtığı ve ağrıları</li>
+                  <li>• Bel fıtığı rehabilitasyonu</li>
+                  <li>• Sırt ağrısı tedavisi</li>
+                  <li>• Omurga eğrilikleri (Skolyoz)</li>
+                  <li>• Boyun düzleşmesi</li>
+                  <li>• Bel tutulması</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border border-blue-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Nörolojik Problemler</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• İnme sonrası rehabilitasyon</li>
+                  <li>• Parkinson hastalığı</li>
+                  <li>• MS (Multipl Skleroz)</li>
+                  <li>• Periferik sinir yaralanmaları</li>
+                  <li>• Denge problemleri</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border border-green-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Eklem Ağrıları ve Problemleri</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• Omuz ağrıları ve donuk omuz</li>
+                  <li>• Diz ağrıları ve menisküs</li>
+                  <li>• Kalça ağrıları ve kireçlenme</li>
+                  <li>• Dirsek ağrıları (tenisçi dirseği)</li>
+                  <li>• El ve bilek problemleri</li>
+                  <li>• Ayak ve ayak bileği ağrıları</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-xl border border-orange-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Cerrahi Sonrası</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• Ortopedik ameliyatlar</li>
+                  <li>• Kırık sonrası rehabilitasyon</li>
+                  <li>• Protez rehabilitasyonu</li>
+                  <li>• Artroskopi sonrası</li>
+                  <li>• Omurga ameliyatları</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl border border-indigo-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Solunum Problemleri</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• KOAH</li>
+                  <li>• Astım</li>
+                  <li>• Bronşektazi</li>
+                  <li>• Pnömoni sonrası</li>
+                  <li>• Solunum kas güçsüzlüğü</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-xl border border-yellow-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Spor Yaralanmaları ve Diğer</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• Kas yırtıkları ve zorlanmalar</li>
+                  <li>• Bağ yaralanmaları</li>
+                  <li>• Burkulmalar ve incinmeler</li>
+                  <li>• Tendon problemleri</li>
+                  <li>• Spor sonrası ağrılar</li>
+                  <li>• Karpal tünel sendromu</li>
+                </ul>
+              </div>
+            </div>
+            
+            {/* Additional Treatment Areas */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl border border-indigo-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Pediatrik Problemler</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• Gelişimsel gecikme</li>
+                  <li>• Serebral palsi</li>
+                  <li>• Down sendromu</li>
+                  <li>• Kas hastalıkları</li>
+                  <li>• Skolyoz</li>
+                  <li>• Duruş bozuklukları</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-br from-teal-50 to-cyan-50 p-6 rounded-xl border border-teal-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Yaşlılık Problemleri</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• Kireçlenme (Osteoartrit)</li>
+                  <li>• Kemik erimesi</li>
+                  <li>• Denge problemleri</li>
+                  <li>• Yürüme zorlukları</li>
+                  <li>• Kas güçsüzlüğü</li>
+                  <li>• Postür bozuklukları</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-br from-rose-50 to-pink-50 p-6 rounded-xl border border-rose-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">İş ve Meslek Hastalıkları</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• Bilgisayar kullanımına bağlı ağrılar</li>
+                  <li>• Tekrarlayan hareket yaralanmaları</li>
+                  <li>• Ofis çalışanı problemleri</li>
+                  <li>• Ağır kaldırma yaralanmaları</li>
+                  <li>• Postür bozuklukları</li>
+                  <li>• Stres kaynaklı kas gerginlikleri</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
+
+        {/* Home Visit Benefits */}
+        <section className="py-20 bg-gradient-to-br from-green-50 via-blue-50 to-purple-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
+                  Evde Fizik Tedavi Avantajları
+                </span>
+              </h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Ağrı Merkez'de fizik tedavi hizmetlerimizin sunduğu avantajlar
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center bg-white p-6 rounded-xl shadow-lg border border-green-200">
+                <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Konfor</h3>
+                <p className="text-gray-600 text-sm">Kendi evinizde rahat bir ortamda tedavi</p>
+              </div>
+
+              <div className="text-center bg-white p-6 rounded-xl shadow-lg border border-blue-200">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Clock className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Zaman Tasarrufu</h3>
+                <p className="text-gray-600 text-sm">Yol ve bekleme süresi olmadan</p>
+              </div>
+
+              <div className="text-center bg-white p-6 rounded-xl shadow-lg border border-purple-200">
+                <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Aile Desteği</h3>
+                <p className="text-gray-600 text-sm">Aile üyeleriyle birlikte tedavi</p>
+              </div>
+
+              <div className="text-center bg-white p-6 rounded-xl shadow-lg border border-orange-200">
+                <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Güvenlik</h3>
+                <p className="text-gray-600 text-sm">Hijyenik ve güvenli ortam</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
 
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 relative overflow-hidden">
@@ -285,17 +433,11 @@ export default function Hizmetler() {
                 Profesyonel fizyoterapi hizmetleri için randevu alın ve sağlığınızı iyileştirmeye başlayın.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/iletisim"
+                <a
+                  href="tel:+905528939386"
                   className="inline-flex items-center justify-center px-8 py-4 bg-white text-purple-600 font-semibold rounded-lg hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105"
                 >
                   <CheckCircle size={20} className="mr-2" />
-                  Randevu Al
-                </Link>
-                <a
-                  href="tel:+905551234567"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-transparent text-white border-2 border-white font-semibold rounded-lg hover:bg-white hover:text-purple-600 transition-all transform hover:scale-105"
-                >
                   Hemen Ara
                 </a>
               </div>
