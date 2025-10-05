@@ -20,7 +20,7 @@ const Footer = () => {
                 <img 
                   src="/fizyo-sefa-logo.jpg" 
                   alt="FIZYO SEFA Logo" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
               <div className="flex flex-col">
