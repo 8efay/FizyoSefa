@@ -17,11 +17,11 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="relative w-12 h-12 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all transform group-hover:scale-105">
+            <div className="relative w-12 h-12 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all transform group-hover:scale-105 rounded-full overflow-hidden">
               <img 
                 src="/fizyo-sefa-logo.jpg" 
                 alt="FIZYO SEFA Logo" 
-                className="w-full h-full object-cover rounded-full border-2 border-white shadow-lg"
+                className="w-full h-full object-center rounded-full border-2 border-white shadow-lg"
               />
             </div>
             <div className="flex flex-col">

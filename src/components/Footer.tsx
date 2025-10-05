@@ -16,11 +16,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="relative w-12 h-12 flex items-center justify-center shadow-lg overflow-hidden">
+              <div className="relative w-12 h-12 flex items-center justify-center shadow-lg overflow-hidden rounded-full">
                 <img 
                   src="/fizyo-sefa-logo.jpg" 
                   alt="FIZYO SEFA Logo" 
-                  className="w-full h-full object-cover rounded-full border-2 border-white shadow-lg"
+                  className="w-full h-full object-center rounded-full border-2 border-white shadow-lg"
                 />
               </div>
               <div className="flex flex-col">
