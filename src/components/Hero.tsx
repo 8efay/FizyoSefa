@@ -86,7 +86,7 @@ const Hero = () => {
                 <img 
                   src="/fizyo-sefa-logo.jpg" 
                   alt="FIZYO SEFA Logo" 
-                  className="w-full h-full object-cover rounded-full"
+                  className="w-full h-full object-cover rounded-full border-4 border-white shadow-xl"
                 />
               </div>
               <h3 className="text-2xl font-bold text-center text-gray-900 mb-2">

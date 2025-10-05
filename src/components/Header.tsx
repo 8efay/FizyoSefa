@@ -21,7 +21,7 @@ const Header = () => {
               <img 
                 src="/fizyo-sefa-logo.jpg" 
                 alt="FIZYO SEFA Logo" 
-                className="w-full h-full object-cover rounded-full"
+                className="w-full h-full object-cover rounded-full border-2 border-white shadow-lg"
               />
             </div>
             <div className="flex flex-col">
