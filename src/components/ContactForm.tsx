@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-import { MessageCircle, CheckCircle, AlertCircle, Shield, AlertTriangle } from 'lucide-react';
+import { MessageCircle, CheckCircle, AlertCircle, Shield } from 'lucide-react';
 
 const schema = yup.object({
   name: yup.string().required('İsim gereklidir'),
