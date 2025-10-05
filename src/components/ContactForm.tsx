@@ -62,19 +62,6 @@ const ContactForm = () => {
         <h3 className="text-2xl font-bold text-gray-900">İletişim Formu</h3>
       </div>
 
-      {/* Güvenlik Uyarısı */}
-      <div className="mb-6 p-4 bg-gradient-to-r from-orange-50 to-red-50 border border-orange-200 rounded-lg">
-        <div className="flex items-start">
-          <AlertTriangle className="w-5 h-5 text-orange-600 mr-2 mt-0.5 flex-shrink-0" />
-          <div>
-            <h4 className="text-sm font-semibold text-orange-800 mb-1">Önemli Uyarı</h4>
-            <p className="text-xs text-orange-700">
-              Bu form sadece iletişim amaçlıdır. Sağlık verisi toplanmamaktadır. 
-              Tedavi için mutlaka bir fizyoterapiste danışınız.
-            </p>
-          </div>
-        </div>
-      </div>
       
       {submitStatus === 'success' && (
         <div className="mb-6 p-4 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg flex items-center">
