@@ -210,12 +210,12 @@ const ContactForm = () => {
           {isSubmitting ? (
             <>
               <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-              WhatsApp'a Yönlendiriliyor...
+              WhatsApp&apos;a Yönlendiriliyor...
             </>
           ) : (
             <>
               <MessageCircle className="w-4 h-4 mr-2" />
-              WhatsApp'ta Sor
+              WhatsApp&apos;ta Sor
             </>
           )}
         </button>

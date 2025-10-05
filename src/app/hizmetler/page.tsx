@@ -2,9 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { 
   Heart, 
-  Activity, 
   Users, 
-  Award, 
   Clock, 
   Shield, 
   Sparkles, 
@@ -20,7 +18,6 @@ import {
   Lightbulb,
   HandHeart
 } from 'lucide-react';
-import Link from 'next/link';
 
 export default function Hizmetler() {
   const services = [
@@ -126,7 +123,7 @@ export default function Hizmetler() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-purple-500 to-pink-500 text-white mb-6 shadow-lg">
               <Sparkles size={16} className="mr-2" />
-              Ağrı Merkez'de Fizik Tedavi
+              Ağrı Merkez&apos;de Fizik Tedavi
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
@@ -134,7 +131,7 @@ export default function Hizmetler() {
               </span>
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-              Ağrı Merkez'de fizik tedavi hizmetleri sunuyorum. Size en güncel ve etkili tedavi yöntemlerini 
+              Ağrı Merkez&apos;de fizik tedavi hizmetleri sunuyorum. Size en güncel ve etkili tedavi yöntemlerini 
               sunarak, her hasta için kişiselleştirilmiş tedavi planları hazırlıyorum.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -369,7 +366,7 @@ export default function Hizmetler() {
                 </span>
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Ağrı Merkez'de fizik tedavi hizmetlerimizin sunduğu avantajlar
+                Ağrı Merkez&apos;de fizik tedavi hizmetlerimizin sunduğu avantajlar
               </p>
             </div>
 

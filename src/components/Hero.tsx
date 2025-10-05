@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Calendar, Phone, ArrowRight, Heart, Activity, Users, Star, Sparkles } from 'lucide-react';
+import { Phone, ArrowRight, Heart, Activity, Users, Star, Sparkles } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -38,7 +38,7 @@ const Hero = () => {
             <div className="mb-6">
               <span className="inline-flex items-center px-6 py-3 rounded-full text-sm font-medium bg-gradient-to-r from-purple-500 to-pink-500 text-white mb-4 shadow-lg animate-pulse">
                 <Heart size={16} className="mr-2" />
-                Ağrı Merkez'de Fizik Tedavi
+                Ağrı Merkez&apos;de Fizik Tedavi
               </span>
             </div>
 
@@ -49,7 +49,7 @@ const Hero = () => {
             </h1>
 
                           <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto lg:mx-0">
-                Ağrı Merkez'de fizik tedavi hizmetleri. Fizyoterapist Sefa Yılmaz ile manuel terapi, 
+                Ağrı Merkez&apos;de fizik tedavi hizmetleri. Fizyoterapist Sefa Yılmaz ile manuel terapi, 
                 rehabilitasyon ve egzersiz danışmanlığı hizmetleri. Sağlığınızı iyileştirmek için buradayım.
               </p>
 

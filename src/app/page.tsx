@@ -2,7 +2,6 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Footer from '@/components/Footer';
 import { Heart, Activity, Users, Award, Clock, Shield, Star, Sparkles, CheckCircle } from 'lucide-react';
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -79,7 +78,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">500+ Mutlu Hasta</h3>
                 <p className="text-gray-600">
-                  Başarılı tedavi sonuçları ile 500'den fazla hastanın güvenini kazandım.
+                  Başarılı tedavi sonuçları ile 500&apos;den fazla hastanın güvenini kazandım.
                 </p>
               </div>
 
