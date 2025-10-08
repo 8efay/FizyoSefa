@@ -82,13 +82,16 @@ const Hero = () => {
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full flex items-center justify-center">
                 <Star className="w-4 h-4 text-white" />
               </div>
-              <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center shadow-lg animate-pulse relative rounded-full overflow-hidden">
+              <div className="w-48 h-48 mx-auto mb-6 flex items-center justify-center shadow-lg relative rounded-full overflow-hidden">
                 <img 
-                  src="/fizyo-sefa-logo.jpg" 
+                  src="/sefa.JPG" 
                   alt="FIZYO SEFA Logo" 
                   className="w-full h-full object-center rounded-full border-4 border-white shadow-xl"
                 />
               </div>
+              <p className="text-center text-gray-600 mb-2 text-sm">
+                evde fizik tedavi ve danışmalık
+              </p>
               <h3 className="text-2xl font-bold text-center text-gray-900 mb-2">
                 Fizyoterapist Sefa Yılmaz
               </h3>

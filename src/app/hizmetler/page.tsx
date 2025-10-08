@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Gallery from '@/components/Gallery';
 import { 
   Heart, 
   Users, 
@@ -182,6 +183,73 @@ export default function Hizmetler() {
             </div>
           </div>
         </section>
+
+        {/* Image Gallery */}
+        <Gallery
+          title="Hizmet Görselleri"
+          items={[
+            { 
+              src: '/egzersiz.jpg', 
+              alt: 'Evde fizik tedavi egzersiz uygulaması', 
+              title: 'Evde Manuel Terapi ve Egzersiz', 
+              descriptionItems: [
+                'Ağrıyı azaltır ve kas spazmını çözer',
+                'Eklem hareket açıklığını ve esnekliği artırır',
+                'Kas gücünü ve dayanıklılığı geliştirir',
+                'Duruş (postür) kontrolünü iyileştirir',
+                'Günlük yaşam aktivitelerinde bağımsızlığı artırır'
+              ]
+            },
+            { 
+              src: '/kupaterapisi.jpg', 
+              alt: 'Kupa terapisi uygulaması sırt bölgesi', 
+              title: 'Kupa Terapi', 
+              descriptionItems: [
+                'Bölgesel kan dolaşımını hızlandırır',
+                'Kas ve fasya gerginliğini azaltır',
+                'Ödemin ve toksinlerin uzaklaştırılmasına yardımcı olur',
+                'Ağrıyı hafifletir, hareketi kolaylaştırır',
+                'Dinlendirici etki ile stres seviyesini düşürür'
+              ]
+            },
+            { 
+              src: '/masaj.jpg', 
+              alt: 'Masaj terapisi sırt kasları için uygulama', 
+              title: 'Masaj Terapisi', 
+              descriptionItems: [
+                'Kas liflerindeki gerginliği ve tetik noktalarını çözer',
+                'Kan ve lenf dolaşımını destekleyerek iyileşmeyi hızlandırır',
+                'Stres, anksiyete ve yorgunluk hissini azaltır',
+                'Uyku kalitesini ve genel rahatlamayı artırır',
+                'Spor/aktivite sonrası toparlanmayı hızlandırır'
+              ]
+            },
+            { 
+              src: '/tens.jpg', 
+              alt: 'TENS elektroterapi uygulaması', 
+              title: 'Elektroterapi (TENS)', 
+              descriptionItems: [
+                'Sinir yolaklarını modüle ederek ağrı algısını düşürür',
+                'Akut ve kronik ağrıların yönetiminde etkilidir',
+                'İlaç kullanım ihtiyacını azaltmaya yardımcı olabilir',
+                'Egzersiz ve manüel terapi sonrası analjeziyi destekler',
+                'Ev programlarına uygun taşınabilir seçenekler sunar'
+              ]
+            },
+            { 
+              src: '/patient-getting-electro-dry-needling-his-back.jpg', 
+              alt: 'Kuru iğneleme elektrostimülasyon', 
+              title: 'Kuru İğneleme / Elektro Stimülasyon', 
+              descriptionItems: [
+                'Trigger noktalarını hedefleyerek kas spazmını hızla çözer',
+                'Bölgesel kanlanma ve doku beslenmesini artırır',
+                'Sinir-kas bağlantısını düzenleyerek hareket kalitesini artırır',
+                'Kronik ağrılarda uzun süreli rahatlama sağlayabilir',
+                'Diğer tedavilerle kombine edildiğinde sonuçları güçlendirir'
+              ]
+            }
+          ]}
+        />
 
         {/* Process Section */}
         <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
