@@ -18,6 +18,7 @@ type GalleryProps = {
 
 export default function Gallery({ items, title }: GalleryProps) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [imageErrors, setImageErrors] = useState<Record<number, string>>({});
   const activeItem = activeIndex !== null ? items[activeIndex] : null;
 
   return (
@@ -36,7 +37,7 @@ export default function Gallery({ items, title }: GalleryProps) {
         {/* Masonry-like grid with one featured card */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {items.map((item, idx) => {
-            const [currentSrc, setCurrentSrc] = useState(item.src);
+            const currentSrc = imageErrors[idx] || item.src;
             const isFeatured = idx === 0; // make first image large
             return (
               <figure
@@ -59,7 +60,7 @@ export default function Gallery({ items, title }: GalleryProps) {
                       : "(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
                   }
                   priority={idx < 1}
-                  onError={() => setCurrentSrc("/fizyo-sefa-logo.jpg")}
+                  onError={() => setImageErrors(prev => ({ ...prev, [idx]: "/fizyo-sefa-logo.jpg" }))}
                   onClick={() => setActiveIndex(idx)}
                 />
                 <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent text-white text-sm p-3 cursor-pointer" onClick={() => setActiveIndex(idx)}>
