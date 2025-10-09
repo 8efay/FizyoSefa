@@ -1,6 +1,6 @@
 # Fizyoterapist Sefa Yılmaz - Kişisel Web Sitesi
 
-Modern, profesyonel ve yasal uyumlu bir fizyoterapist kişisel web sitesi. Next.js, TypeScript ve Tailwind CSS kullanılarak geliştirilmiştir.
+Modern, profesyonell ve yasal uyumlu bir fizyoterapist kişisel web sitesi. Next.js, TypeScript ve Tailwind CSS kullanılarak geliştirilmiştir.
 
 ## 🎯 Proje Amacı
 
