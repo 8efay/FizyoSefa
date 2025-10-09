@@ -27,12 +27,16 @@ const Footer = () => {
                 <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
                   FizyoSefa
                 </h3>
-                <p className="text-sm text-gray-400 font-medium">Evde Fizik Tedavi</p>
+                <p className="text-sm text-gray-400 font-medium">Fizyoterapi ve Danışmanlık</p>
               </div>
             </div>
-            <p className="text-gray-300 mb-6 max-w-md">
+            <p className="text-gray-300 mb-4 max-w-md">
               Profesyonel fizyoterapi hizmetleri ile sağlığınızı iyileştirmek için buradayım. 
               Manuel terapi, rehabilitasyon ve egzersiz danışmanlığı konularında uzmanlığımı sizlerle paylaşıyorum.
+            </p>
+            <p className="text-xs text-orange-300 mb-6 max-w-md bg-orange-900/20 p-2 rounded border border-orange-800/30">
+              <strong>Uyarı:</strong> Bu sitedeki bilgiler sadece bilgilendirme amaçlıdır. 
+              Tıbbi tavsiye yerine geçmez. Tedavi için uzman hekime danışınız.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors bg-gray-800 p-2 rounded-full hover:bg-purple-800">

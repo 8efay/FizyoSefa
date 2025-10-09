@@ -27,7 +27,7 @@ export default function Home() {
                 </span>
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Profesyonel deneyimim ve hasta odaklı yaklaşımımla sağlığınızı iyileştirmek için buradayım.
+                Profesyonel yaklaşımımla ve hasta odaklı hizmetimle sağlığınızı iyileştirmek için buradayım.
               </p>
             </div>
 
@@ -76,9 +76,9 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full flex items-center justify-center mb-6 shadow-lg">
                   <Users className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">500+ Mutlu Hasta</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Profesyonel Yaklaşım</h3>
                 <p className="text-gray-600">
-                  Başarılı tedavi sonuçları ile 500&apos;den fazla hastanın güvenini kazandım.
+                  Sürekli eğitim ve güncel teknikler ile en iyi hizmeti sunmaya odaklanıyorum.
                 </p>
               </div>
 
@@ -100,16 +100,16 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                <div className="text-4xl font-bold text-white mb-2">500+</div>
-                <div className="text-white/90">Mutlu Hasta</div>
+                <div className="text-4xl font-bold text-white mb-2">Uzman</div>
+                <div className="text-white/90">Fizyoterapist</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                <div className="text-4xl font-bold text-white mb-2">5+</div>
-                <div className="text-white/90">Yıl Deneyim</div>
+                <div className="text-4xl font-bold text-white mb-2">Profesyonel</div>
+                <div className="text-white/90">Hizmet</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                <div className="text-4xl font-bold text-white mb-2">100%</div>
-                <div className="text-white/90">Memnuniyet</div>
+                <div className="text-4xl font-bold text-white mb-2">Kaliteli</div>
+                <div className="text-white/90">Hizmet</div>
               </div>
             </div>
           </div>

@@ -28,7 +28,7 @@ const Header = () => {
               <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
                 FizyoSefa
               </h1>
-              <p className="text-sm text-gray-600 font-medium">evde fizik tedavi ve danışmalık</p>
+              <p className="text-sm text-gray-600 font-medium">fizyoterapi ve danışmanlık</p>
             </div>
           </Link>
 

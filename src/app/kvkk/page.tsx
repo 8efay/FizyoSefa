@@ -103,8 +103,7 @@ export default function KVKK() {
 
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Tedavi Uyarısı</h3>
                   <p className="text-gray-700 mb-6">
-                    Sitede yer alan egzersiz önerileri ve bilgiler genel niteliktedir. 
-                    Herhangi bir tedavi uygulamadan önce mutlaka uzman bir fizyoterapiste danışınız.
+                    Sitede yer alan egzersiz önerileri ve bilgiler genel niteliktedir.
                   </p>
 
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Sorumluluk Reddi</h3>

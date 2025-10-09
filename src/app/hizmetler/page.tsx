@@ -26,7 +26,7 @@ export default function Hizmetler() {
       icon: <HandHeart className="w-8 h-8 text-white" />,
       title: "Manuel Terapi",
       description: "Kas ve eklem problemlerinizi çözmek için özel manuel terapi teknikleri uyguluyorum.",
-      features: ["Kas gevşetme", "Eklem mobilizasyonu", "Doku manipülasyonu", "Ağrı azaltma", "Trigger point tedavisi", "Myofascial release"],
+      features: ["Kas gevşetme", "Eklem mobilizasyonu", "Doku manipülasyonu", "Ağrı azaltma", "Myofascial release", "Soft tissue mobilizasyonu"],
       color: "from-purple-500 to-pink-500",
       bgColor: "from-purple-50 to-pink-50",
       borderColor: "border-purple-200"
@@ -80,7 +80,7 @@ export default function Hizmetler() {
       icon: <Target className="w-8 h-8 text-white" />,
       title: "Spor Fizyoterapisi",
       description: "Sporcu yaralanmalarında ve performans artırımında uzmanlaşmış tedavi.",
-      features: ["Spor yaralanması tedavisi", "Performans artırımı", "Esneklik ve mobilite", "Güç ve dayanıklılık", "Yaralanma önleme", "Sporcu beslenme danışmanlığı"],
+      features: ["Spor yaralanması tedavisi", "Performans artırımı", "Esneklik ve mobilite", "Güç ve dayanıklılık", "Yaralanma önleme", "Sporcu rehabilitasyonu"],
       color: "from-yellow-500 to-orange-500",
       bgColor: "from-yellow-50 to-orange-50",
       borderColor: "border-yellow-200"
@@ -131,7 +131,7 @@ export default function Hizmetler() {
                 Evde Fizik Tedavi Hizmetlerimiz
               </span>
             </h1>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
               Ağrı Merkez&apos;de fizik tedavi hizmetleri sunuyorum. Size en güncel ve etkili tedavi yöntemlerini 
               sunarak, her hasta için kişiselleştirilmiş tedavi planları hazırlıyorum.
             </p>
@@ -234,18 +234,6 @@ export default function Hizmetler() {
                 'İlaç kullanım ihtiyacını azaltmaya yardımcı olabilir',
                 'Egzersiz ve manüel terapi sonrası analjeziyi destekler',
                 'Ev programlarına uygun taşınabilir seçenekler sunar'
-              ]
-            },
-            { 
-              src: '/patient-getting-electro-dry-needling-his-back.jpg', 
-              alt: 'Kuru iğneleme elektrostimülasyon', 
-              title: 'Kuru İğneleme / Elektro Stimülasyon', 
-              descriptionItems: [
-                'Trigger noktalarını hedefleyerek kas spazmını hızla çözer',
-                'Bölgesel kanlanma ve doku beslenmesini artırır',
-                'Sinir-kas bağlantısını düzenleyerek hareket kalitesini artırır',
-                'Kronik ağrılarda uzun süreli rahatlama sağlayabilir',
-                'Diğer tedavilerle kombine edildiğinde sonuçları güçlendirir'
               ]
             }
           ]}

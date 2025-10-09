@@ -17,7 +17,7 @@ export default function Hakkimda() {
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Fizyoterapist olarak sağlığınızı iyileştirmek için buradayım. 
-                Deneyimim ve uzmanlığımla size en iyi hizmeti sunmaya odaklanıyorum.
+                Uzmanlığımla ve profesyonel yaklaşımımla size en iyi hizmeti sunmaya odaklanıyorum.
               </p>
             </div>
           </div>
@@ -51,8 +51,12 @@ export default function Hakkimda() {
               {/* Right Content - Profile Card */}
               <div className="relative">
                 <div className="bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
-                  <div className="w-40 h-40 bg-gradient-to-br from-primary to-secondary rounded-full mx-auto mb-6 flex items-center justify-center">
-                    <span className="text-white text-6xl font-bold">S</span>
+                  <div className="w-40 h-40 mx-auto mb-6 flex items-center justify-center relative rounded-full overflow-hidden shadow-lg">
+                    <img 
+                      src="/sefa.JPG" 
+                      alt="Sefa Yılmaz - Fizyoterapist" 
+                      className="w-full h-full object-cover rounded-full border-4 border-white shadow-xl"
+                    />
                   </div>
                   <h3 className="text-2xl font-bold text-center text-gray-900 mb-2">
                     Sefa Yılmaz
@@ -66,8 +70,8 @@ export default function Hakkimda() {
                       <span className="font-semibold text-primary">Manuel Terapi</span>
                     </div>
                     <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                      <span className="text-sm text-gray-600">Tedavi Edilen Hasta</span>
-                      <span className="font-semibold text-secondary">500+</span>
+                      <span className="text-sm text-gray-600">Hizmet Kalitesi</span>
+                      <span className="font-semibold text-secondary">Yüksek</span>
                     </div>
                     <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
                       <span className="text-sm text-gray-600">Uzmanlık Alanları</span>

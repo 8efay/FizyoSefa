@@ -48,9 +48,9 @@ const Hero = () => {
               <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Tedavi</span>
             </h1>
 
-                          <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto lg:mx-0">
+                          <p className="text-lg text-gray-600 mb-4 max-w-lg mx-auto lg:mx-0">
                 Ağrı Merkez&apos;de fizik tedavi hizmetleri. Fizyoterapist Sefa Yılmaz ile manuel terapi, 
-                rehabilitasyon ve egzersiz danışmanlığı hizmetleri. Sağlığınızı iyileştirmek için buradayım.
+                rehabilitasyon ve egzersiz danışmanlığı hizmetleri.
               </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -67,7 +67,7 @@ const Hero = () => {
             <div className="mt-8 flex items-center justify-center lg:justify-start space-x-6 text-sm text-gray-600">
               <div className="flex items-center bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
                 <Users size={16} className="mr-2 text-purple-500" />
-                <span>500+ Mutlu Hasta</span>
+                <span>Uzman Fizyoterapist</span>
               </div>
               <div className="flex items-center bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
                 <Activity size={16} className="mr-2 text-pink-500" />
@@ -90,7 +90,7 @@ const Hero = () => {
                 />
               </div>
               <p className="text-center text-gray-600 mb-2 text-sm">
-                evde fizik tedavi ve danışmalık
+                fizyoterapi ve danışmanlık
               </p>
               <h3 className="text-2xl font-bold text-center text-gray-900 mb-2">
                 Fizyoterapist Sefa Yılmaz

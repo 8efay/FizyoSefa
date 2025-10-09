@@ -148,7 +148,7 @@ const ContactForm = () => {
             >
               <option value="">Konu seçiniz</option>
               <option value="bilgi">Bilgi Alma</option>
-              <option value="blog">Blog Hakkında Soru</option>
+              <option value="randevu">Randevu Talebi</option>
               <option value="oneri">Öneri</option>
               <option value="diger">Diğer</option>
             </select>
@@ -212,7 +212,7 @@ const ContactForm = () => {
       <div className="mt-6 pt-6 border-t border-gray-200">
         <p className="text-xs text-gray-500 text-center">
           Bu form sadece iletişim amaçlıdır. Sağlık verisi toplanmamaktadır. 
-          Tedavi için mutlaka bir fizyoterapiste danışınız.
+          Bu site tıbbi tavsiye vermez.
         </p>
       </div>
     </div>
