@@ -135,6 +135,12 @@ export default function Hizmetler() {
               Ağrı Merkez&apos;de fizik tedavi hizmetleri sunuyorum. Size en güncel ve etkili tedavi yöntemlerini 
               sunarak, her hasta için kişiselleştirilmiş tedavi planları hazırlıyorum.
             </p>
+            <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 max-w-3xl mx-auto mb-8">
+              <p className="text-sm text-orange-800 text-center">
+                <strong>Uyarı:</strong> Sitemizin içeriği konuyla ilgili bilgi sahibi olmak isteyenlere yönelik hazırlanmıştır. 
+                Sitede bulunan yazılar herhangi bir teşhis veya tedavi önerisi amacı taşımaz.
+              </p>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+905528939386"

@@ -35,8 +35,8 @@ const Footer = () => {
               Manuel terapi, rehabilitasyon ve egzersiz danışmanlığı konularında uzmanlığımı sizlerle paylaşıyorum.
             </p>
             <p className="text-xs text-orange-300 mb-6 max-w-md bg-orange-900/20 p-2 rounded border border-orange-800/30">
-              <strong>Uyarı:</strong> Bu sitedeki bilgiler sadece bilgilendirme amaçlıdır. 
-              Tıbbi tavsiye yerine geçmez. Tedavi için uzman hekime danışınız.
+              <strong>Uyarı:</strong> Sitemizin içeriği konuyla ilgili bilgi sahibi olmak isteyenlere yönelik hazırlanmıştır. 
+              Sitede bulunan yazılar herhangi bir teşhis veya tedavi önerisi amacı taşımaz.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors bg-gray-800 p-2 rounded-full hover:bg-purple-800">

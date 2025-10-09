@@ -97,8 +97,11 @@ export default function KVKK() {
                 <div className="prose prose-lg max-w-none">
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Önemli Uyarı</h3>
                   <p className="text-gray-700 mb-6">
-                    Bu web sitesindeki tüm bilgiler sadece <strong>bilgilendirme amaçlıdır</strong> ve 
-                    profesyonel tıbbi tavsiye yerine geçmez.
+                    Sitemizin içeriği konuyla ilgili bilgi sahibi olmak isteyenlere yönelik hazırlanmıştır. 
+                    Sitede bulunan yazılar herhangi bir teşhis veya tedavi önerisi amacı taşımaz. Sadece sitedeki 
+                    bilgilerden yola çıkarak tedavi veya teşhis yapılmamalıdır. Hiçbir yazı, online görüşme veya 
+                    konuşma, birebir muayene ve detaylı hikaye ile birlikte kararlaştırılan tedavi ve teşhisten 
+                    güçlü değildir.
                   </p>
 
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Tedavi Uyarısı</h3>

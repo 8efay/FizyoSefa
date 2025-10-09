@@ -212,7 +212,7 @@ const ContactForm = () => {
       <div className="mt-6 pt-6 border-t border-gray-200">
         <p className="text-xs text-gray-500 text-center">
           Bu form sadece iletişim amaçlıdır. Sağlık verisi toplanmamaktadır. 
-          Bu site tıbbi tavsiye vermez.
+          Sitede bulunan yazılar herhangi bir teşhis veya tedavi önerisi amacı taşımaz.
         </p>
       </div>
     </div>

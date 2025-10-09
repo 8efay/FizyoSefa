@@ -52,6 +52,10 @@ const Hero = () => {
                 Ağrı Merkez&apos;de fizik tedavi hizmetleri. Fizyoterapist Sefa Yılmaz ile manuel terapi, 
                 rehabilitasyon ve egzersiz danışmanlığı hizmetleri.
               </p>
+              <p className="text-sm text-orange-600 mb-8 max-w-lg mx-auto lg:mx-0 bg-orange-50 p-3 rounded-lg border border-orange-200">
+                <strong>Uyarı:</strong> Sitemizin içeriği konuyla ilgili bilgi sahibi olmak isteyenlere yönelik hazırlanmıştır. 
+                Sitede bulunan yazılar herhangi bir teşhis veya tedavi önerisi amacı taşımaz.
+              </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
